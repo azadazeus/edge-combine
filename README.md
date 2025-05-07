@@ -71,7 +71,7 @@ python combine_edges.py "C:\Users\Azad\edge data" -p 8
 
 ```python
 from combine_edges import combine_edge_folder
-combine_edge_folder(r"C:\Users\Azad\edge data", output_name="mega.edge", precision=6)
+combine_edge_folder(r"C:\Users\edge data", output_name="mega.edge", precision=6)
 ```
 
 ---
