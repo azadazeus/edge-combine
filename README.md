@@ -58,7 +58,7 @@ python combine_edges.py <folder> -p 8          # keep 8 decimal places
 #### Windows (PowerShell)
 
 ```powershell
-python combine_edges.py "C:\Users\Azad\edge data" -p 8
+python combine_edges.py "C:\Users\edge data" -p 8
 ```
 
 #### macOS / Linux
