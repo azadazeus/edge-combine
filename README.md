@@ -80,9 +80,8 @@ combine_edge_folder(r"C:\Users\edge data", output_name="mega.edge", precision=6)
 
 1. **Discovers** every `.edge` file in the target folder (ignoring any existing `total.edge`).
 2. **Validates** each file is square; throws a descriptive error if not.
-3. **Sorts** the matrices from largest dimension to smallest.
-4. **Stitches** them into a block‑diagonal mega‑matrix with `scipy.linalg.block_diag`.
-5. **Writes** the result back into the same folder.
+3. **Stitches** them into a block‑diagonal mega‑matrix with `scipy.linalg.block_diag`.
+4. **Writes** the result back into the same folder.
 
 The final layout looks like this:
 
