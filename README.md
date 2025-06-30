@@ -54,6 +54,8 @@ python combine_edges.py <folder> -p 8          # keep 8 decimal places
 * `<folder>` – directory containing individual `.edge` files.
 * `-o/--output` – filename for the combined matrix (default `total.edge`).
 * `-p/--precision` – decimals retained when writing floats (default 5).
+* `-a/--alphabetically` - sort alphabetically
+* `-s/--size` - sort by size (largest first)
 
 #### Windows (PowerShell)
 
